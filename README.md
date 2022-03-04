@@ -1,5 +1,5 @@
 # STAGATE_pyG
-STAGATE software based on pyG (PyTorch Geometric) framework
+STAGATE software based on pyG (PyTorch Geometric) framework.
 
 ![](https://github.com/QIFEIDKN/STAGATE/blob/main/STAGATE_Overview.png)
 
@@ -13,7 +13,7 @@ STAGATE is designed for spatial clustering and denoising expressions of spatial 
 
 STAGATE learns low-dimensional latent embeddings with both spatial information and gene expressions via a graph attention auto-encoder. The method adopts an attention mechanism in the middle layer of the encoder and decoder, which adaptively learns the edge weights of spatial neighbor networks, and further uses them to update the spot representation by collectively aggregating information from its neighbors. The latent embeddings and the reconstructed expression profiles can be used to downstream tasks such as spatial domain identification, visualization, spatial trajectory inference, data denoising and 3D expression domain extraction.
 
-STAGATE on tensorflow framework can be found at [here](https://github.com/QIFEIDKN/STAGATE).
+STAGATE based on tensorflow framework can be found at [here](https://github.com/QIFEIDKN/STAGATE).
 
 ## Getting started
 See [Documentation and Tutorials](https://stagate.readthedocs.io/en/latest/index.html).
