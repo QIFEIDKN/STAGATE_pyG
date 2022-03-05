@@ -3,6 +3,7 @@ import numpy as np
 import sklearn.neighbors
 import scipy.sparse as sp
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 import torch
 from torch_geometric.data import Data
