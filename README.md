@@ -37,4 +37,4 @@ python setup.py build
 python setup.py install
 
 ## Citation
-Dong, Kangning, and Shihua Zhang. “Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder.” bioRxiv (2021). doi: https://doi.org/10.1101/2021.08.21.457240
+Dong, Kangning, and Shihua Zhang. "Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder." Nature Communications 13.1 (2022): 1-12.
