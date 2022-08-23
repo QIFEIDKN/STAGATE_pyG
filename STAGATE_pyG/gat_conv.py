@@ -205,7 +205,8 @@ class GATConv(MessagePassing):
         # we simply need to sum them up to "emulate" concatenation:
         alpha = alpha_j if alpha_i is None else alpha_j + alpha_i
 
-        alpha = F.leaky_relu(alpha, self.negative_slope)
+        #alpha = F.leaky_relu(alpha, self.negative_slope)
+        alpha = torch.sigmoid(alpha)
         alpha = softmax(alpha, index, ptr, size_i)
         self._alpha = alpha  # Save for later use.
         alpha = F.dropout(alpha, p=self.dropout, training=self.training)
