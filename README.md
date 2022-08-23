@@ -6,6 +6,9 @@ STAGATE software based on pyG (PyTorch Geometric) framework.
 ![](https://github.com/QIFEIDKN/STAGATE/blob/main/STAGATE_Overview.png)
 
 ## News
+2022.08.23 The non-linear function for attention weight calculation is changed from LeakyRelu to Sigmoid, which is the same with the tensorflow version STAGATE.
+![](https://github.com/QIFEIDKN/STAGATE_pyG-Sigmoid/blob/main/STAGATE_Sigmoid.png)
+
 2022.03.05 STAGATE based on pyG (PyTorch Geometric) framework is availble at [STAGATE_pyG](https://github.com/QIFEIDKN/STAGATE_pyG).
 
 Benefit from the optimization of the pyG package for training graph neural networks, it is more than 10x faster than STAGATE based on the tensorflow1 framework, and can use a batch training strategy to deal with large-scale data.
